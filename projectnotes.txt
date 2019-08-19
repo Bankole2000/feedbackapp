@@ -1,0 +1,14 @@
+Project Uses Python, Flask, Postgresql, and pgamdin
+
+to start the project, create a folder and use the command
+>> pip install pipenv    //Creates a virtual enviroment
+
+to run the virtual environment use the command 
+>> pipenv shell     // Runs the virtula environment
+
+we need packages
+>> pipenv install flask
+>> pipenv install psycopg2         // api for postgresql
+>> pipenv install psycopg2-binary    // just to make sure of psycopg2
+>> pipenv install flask-sqlalchemy    // sql commands api for flask
+>> pipenv install gunicorn         // Like an http server - necessary for when you deploy to heroku
